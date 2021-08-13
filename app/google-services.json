@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1039607539599",
+    "project_id": "tasksapp-c4bcb",
+    "storage_bucket": "tasksapp-c4bcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039607539599:android:404693bccae89334a9cdfa",
+        "android_client_info": {
+          "package_name": "com.example.tasksapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039607539599-n4pgl1g349tqgnjjanud0ov4ggtvrdca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPt3PawPmy2TCdD58aJj2hfsdUpFQr4bM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039607539599-n4pgl1g349tqgnjjanud0ov4ggtvrdca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

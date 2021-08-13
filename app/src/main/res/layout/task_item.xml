@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/task_item_relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/rounded_boarders"
+    android:layoutDirection="ltr"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/task_item_line2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layoutDirection="ltr"
+        android:weightSum="100">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/task_item_liveTask"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="15"
+            android:layoutDirection="ltr"
+            android:visibility="invisible"
+            app:lottie_autoPlay="true"
+            app:lottie_repeatCount="54000"
+            app:lottie_repeatMode="restart"
+            app:lottie_rawRes="@raw/livenow" />
+
+        <TextView
+            android:id="@+id/task_item_subject"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="65"
+            android:gravity="center"
+            android:text="notjge"
+            android:textColor="@color/black"
+            android:textSize="23sp" />
+
+        <ImageView
+            android:id="@+id/task_item_image_notification"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="20"
+            android:src="@drawable/ic_notifications_offline" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/task_item_lineView"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/task_item_line2"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#C0C0C0" />
+
+    <LinearLayout
+        android:id="@+id/task_item_line1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/task_item_lineView"
+        android:layout_marginTop="5dp"
+        android:layoutDirection="ltr"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/task_item_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="12:00"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/task_item_lineView2"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#C0C0C0" />
+
+        <TextView
+            android:id="@+id/task_item_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="17/08/2022"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
